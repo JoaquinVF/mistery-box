@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c6b;
+  padding: 1rem;
+}
+
+.logo h2 {
+  color: white;
+  margin: 0;
+  animation: fade-in-out 3s ease-in-out infinite;
+
+}
+
+.links span {
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.links span:hover {
+  text-decoration: underline;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.45;
+  }
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cartContainer img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.cartCount {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}

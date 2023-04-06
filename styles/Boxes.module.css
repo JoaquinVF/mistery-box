@@ -1,0 +1,7 @@
+.cardBoxsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 12rem;
+}
